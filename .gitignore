@@ -1,5 +1,12 @@
 .env
-doc/
+doc/chat.txt
+doc/Gabi Multiclass Problem.ipynb
+doc/new_dataset.csv
+doc/Q&A.json
+doc/Rewrite-answers (1).xlsx
+doc/sample2.csv
+doc/traders_data (1).xlsx
 env/
 chroma_data/
-project/
+final/
+test/
