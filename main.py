@@ -117,16 +117,7 @@ if question_index < len(questions):
     question = questions[question_index]
 
     st.header(f"Question {question_index + 1}")
-    st.write(question)
-
-    # label1 = "empty"
-    # label2 = "empty"
-    
-    # if dataset[question_index * 2] != "":
-    #     label1 = dataset[question_index * 2]
-    # if dataset[question_index*2 + 1] != "":
-    #     label1 = dataset[question_index * 2+1]
-    
+    st.write(question)    
     
     answer1 = st.button(
         dataset[question_index * 2], key=f"question_{question_index*2}_option_a"
